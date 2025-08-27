@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import "MemeTableViewCell.h"
+#import "NoteTableViewCell.h"
 #import "NoteManager.h"
 #import "CoreDataManager.h"
 #import "CoreDataStack.h"
@@ -153,7 +153,7 @@
     [tableView.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor].active = true;
     [tableView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor].active = true;
     
-    [self.tableView registerClass:MemeTableViewCell.self forCellReuseIdentifier:@"cell"];
+    [self.tableView registerClass:NoteTableViewCell.self forCellReuseIdentifier:@"cell"];
 
     tableView.dataSource = self;
     tableView.delegate = self;
@@ -184,10 +184,14 @@
 }
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    MemeTableViewCell * cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    NoteTableViewCell * cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     NoteModel *object = [self.note objectAtIndex:indexPath.row];
     [cell setupCell: object];
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 50;
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section { 

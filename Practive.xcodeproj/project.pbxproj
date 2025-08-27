@@ -10,7 +10,7 @@
 		FC096B5F2B4D46F2006FC425 /* NoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B5E2B4D46F2006FC425 /* NoteManager.m */; };
 		FC096B612B4D4709006FC425 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B602B4D4709006FC425 /* CoreDataManager.m */; };
 		FC096B632B4D471B006FC425 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B622B4D471B006FC425 /* CoreDataStack.m */; };
-		FC096B652B4D473A006FC425 /* MemeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B642B4D473A006FC425 /* MemeTableViewCell.m */; };
+		FC096B652B4D473A006FC425 /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B642B4D473A006FC425 /* NoteTableViewCell.m */; };
 		FC096B672B4D4751006FC425 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B662B4D4751006FC425 /* ImageModel.m */; };
 		FC096B692B4D4765006FC425 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B682B4D4765006FC425 /* ImageManager.m */; };
 		FC096B6B2B4D477C006FC425 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC096B6A2B4D477C006FC425 /* NoteViewController.m */; };
@@ -59,7 +59,7 @@
 		FC096B5E2B4D46F2006FC425 /* NoteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteManager.m; sourceTree = "<group>"; };
 		FC096B602B4D4709006FC425 /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 		FC096B622B4D471B006FC425 /* CoreDataStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
-		FC096B642B4D473A006FC425 /* MemeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeTableViewCell.m; sourceTree = "<group>"; };
+		FC096B642B4D473A006FC425 /* NoteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewCell.m; sourceTree = "<group>"; };
 		FC096B662B4D4751006FC425 /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		FC096B682B4D4765006FC425 /* ImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
 		FC096B6A2B4D477C006FC425 /* NoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		FCF116F72B4D3F0C00590F5A /* NoteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteManager.h; sourceTree = "<group>"; };
 		FCF116FA2B4D3F2900590F5A /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 		FCF116FD2B4D3F4300590F5A /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
-		FCF117002B4D3F6200590F5A /* MemeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemeTableViewCell.h; sourceTree = "<group>"; };
+		FCF117002B4D3F6200590F5A /* NoteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +189,8 @@
 				FC71C1B32B640FF70039FBE0 /* ResizeAttachmentProtocol.h */,
 				FC71C1B02B640C0B0039FBE0 /* EditableFrame.m */,
 				FC71C1B22B640CB80039FBE0 /* EditableFrame.h */,
-				FCF117002B4D3F6200590F5A /* MemeTableViewCell.h */,
-				FC096B642B4D473A006FC425 /* MemeTableViewCell.m */,
+				FCF117002B4D3F6200590F5A /* NoteTableViewCell.h */,
+				FC096B642B4D473A006FC425 /* NoteTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -446,7 +446,7 @@
 				FC096B692B4D4765006FC425 /* ImageManager.m in Sources */,
 				FCCF12AE2B3E1F5200B8BFBF /* EntityEnum.m in Sources */,
 				FC096B5F2B4D46F2006FC425 /* NoteManager.m in Sources */,
-				FC096B652B4D473A006FC425 /* MemeTableViewCell.m in Sources */,
+				FC096B652B4D473A006FC425 /* NoteTableViewCell.m in Sources */,
 				FCD971612B56162200746C97 /* EmojiCollectionViewCell.m in Sources */,
 				FC096B632B4D471B006FC425 /* CoreDataStack.m in Sources */,
 				FC71C1AE2B6407F20039FBE0 /* AttachmentTapGestureRecognizer.m in Sources */,

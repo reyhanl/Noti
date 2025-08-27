@@ -248,8 +248,6 @@
         return true;
     }
     
-
-
     NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithAttributedString:textView.attributedText];
     
     NSLog(@"Original text: '%@'", text);
@@ -345,7 +343,7 @@
         return;
     }
     if (_selectedRange.location != NSNotFound &&
-        NSMaxRange(_selectedRange) <= attrString.length &&
+        NSMaxRange(_selectedRange) < attrString.length &&
         selectedText.length > 0) {
 
         NSDictionary<NSAttributedStringKey, id> *attributes =

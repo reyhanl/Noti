@@ -14,40 +14,10 @@
             filePath = "Practive/View/NoteViewController/NoteViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "776"
-            endingLineNumber = "776"
+            startingLineNumber = "774"
+            endingLineNumber = "774"
             landmarkName = "-textViewDidBeginEditing:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3BF5C578-8A72-4976-8A2E-567BB2C231CC - db50da368137d45c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[NoteViewController textViewDidBeginEditing:]"
-                  moduleName = "Practive.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/reyhanmuhammad/Downloads/Noti-main/Practive/View/NoteViewController/NoteViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "776"
-                  endingLineNumber = "776">
-               </Location>
-               <Location
-                  uuid = "3BF5C578-8A72-4976-8A2E-567BB2C231CC - db50da368137d45c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[NoteViewController textViewDidBeginEditing:]"
-                  moduleName = "Practive.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/reyhanmuhammad/Downloads/Noti-main/Practive/View/NoteViewController/NoteViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "776"
-                  endingLineNumber = "776">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -60,8 +30,8 @@
             filePath = "Practive/View/NoteViewController/NoteViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "777"
-            endingLineNumber = "777"
+            startingLineNumber = "775"
+            endingLineNumber = "775"
             landmarkName = "-textViewDidBeginEditing:"
             landmarkType = "7">
          </BreakpointContent>

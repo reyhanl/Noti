@@ -6,9 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MemeTableViewCell.h"
+#import "NoteTableViewCell.h"
 
-@implementation MemeTableViewCell
+@implementation NoteTableViewCell
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -88,10 +88,12 @@
     imageView.translatesAutoresizingMaskIntoConstraints = false;
     [self addSubview:imageView];
     
-    [imageView.trailingAnchor constraintEqualToAnchor:self.trailingAnchor].active = true;
+    [imageView.trailingAnchor constraintEqualToAnchor:self.trailingAnchor constant:-10].active = true;
     [imageView.centerYAnchor constraintEqualToAnchor:self.centerYAnchor].active = true;
     [imageView.widthAnchor constraintEqualToConstant:self.frame.size.height * 0.8].active = true;
     [imageView.heightAnchor constraintEqualToConstant:self.frame.size.height * 0.8].active = true;
+    imageView.layer.cornerRadius = 4;
+    imageView.clipsToBounds = true;
     self.thumbImageView = imageView;
     self.imageView.contentMode = UIViewContentModeScaleAspectFill;
     self.imageView.clipsToBounds = true;

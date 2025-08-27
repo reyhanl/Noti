@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "NoteModel.h"
 
-@interface MemeTableViewCell : UITableViewCell
+@interface NoteTableViewCell : UITableViewCell
 
 @property (strong, nonatomic) UIStackView * stackView;
 @property (strong, nonatomic) UILabel * label;
