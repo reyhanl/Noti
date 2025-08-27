@@ -370,7 +370,6 @@
 - (void)textViewDidChange:(UITextView *_Nonnull)textView{
     NSString *title = [self getTitle:textView.text];
     NSLog(@"title: %@", title);
-    
     self.note.title = title;
     [self titleText];
     self.note.body.attributedString = textView.attributedText;
@@ -773,6 +772,13 @@
     }
 }
 
+- (void)textViewDidBeginEditing:(UITextView *)textView{
+    for(UIView* view in self.containerView.subviews){
+        if([view isKindOfClass: [EditableFrame class]]){
+            [view removeFromSuperview];
+        }
+    }
+}
 
 -(bool)isItalic:(NSRange)range{
     NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc]initWithAttributedString:self.textView.attributedText];
