@@ -440,9 +440,12 @@
 }
 
 -(void)save{
-    NSDictionary *dict = [self.note dictionaryRepresantation];
-    NoteManager *manager = [[NoteManager alloc] init];
-    [manager editNote:self.note.identifier dictionary:dict];
+//    self.timer = nil;
+//    self.timer = [NSTimer timerWithTimeInterval:0.2 repeats:false block:^(NSTimer * _Nonnull timer) {
+        NSDictionary *dict = [self.note dictionaryRepresantation];
+        NoteManager *manager = [[NoteManager alloc] init];
+        [manager editNote:self.note.identifier dictionary:dict];
+//    }];
 }
 
 -(void)titleText{
@@ -547,7 +550,8 @@
     NSAttributedString *attrStringWithImage = [NSAttributedString attributedStringWithAttachment:textAttachment];
     [attributedString replaceCharactersInRange:self.textView.selectedRange withAttributedString:attrStringWithImage];
     _textView.attributedText = attributedString;
-    
+    self.note.body.attributedString = attributedString;
+
     [self save];
 }
 

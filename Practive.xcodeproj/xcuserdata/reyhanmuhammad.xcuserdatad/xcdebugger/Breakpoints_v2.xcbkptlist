@@ -14,8 +14,8 @@
             filePath = "Practive/View/NoteViewController/NoteViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "774"
-            endingLineNumber = "774"
+            startingLineNumber = "778"
+            endingLineNumber = "778"
             landmarkName = "-textViewDidBeginEditing:"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "Practive/View/NoteViewController/NoteViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "775"
-            endingLineNumber = "775"
+            startingLineNumber = "779"
+            endingLineNumber = "779"
             landmarkName = "-textViewDidBeginEditing:"
             landmarkType = "7">
          </BreakpointContent>
